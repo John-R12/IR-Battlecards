@@ -30,5 +30,3 @@ Each card is a **concise checklist** designed to support Security Operations and
 ## 📚 References
 - NIST SP 800-61r2 – *Computer Security Incident Handling Guide*  
 - Internal IR Playbooks and SOC Procedures  
-
----
