@@ -1,35 +1,34 @@
-# 📑 Index – Incident Response Battle Cards
+# 📑 Incident Response Battle Cards
 
-Bienvenue dans la collection de **Battle Cards** pour la réponse à incident.  
-Chaque fiche est basée sur le cadre **NIST SP 800-61r2** et conçue comme une **checklist opérationnelle** pour les équipes cyber.
+This directory contains **Incident Response Battle Cards** aligned with the NIST SP 800-61r2 framework.  
+Each card is a **concise checklist** designed to support Security Operations and Incident Response teams.
 
 ---
 
-## 🔥 Fiches disponibles
+## 🔥 Available Battle Cards
 
 - [🛡️ Ransomware](./ransomware.md)  
 - [🎣 Phishing](./phishing.md)  
-- [📂 Data Breach (Fuite de données)](./data-breach.md)  
-- [🔑 Compte compromis](./account-compromise.md)  
+- [📂 Data Breach](./data-breach.md)  
+- [🔑 Account Compromise](./account-compromise.md)  
 
 ---
 
-## 🧩 Comment utiliser ces fiches ?
-1. Identifier le type d’incident.  
-2. Ouvrir la battle card correspondante.  
-3. Suivre les étapes dans l’ordre :  
-   - 🚨 Détection & Analyse  
-   - 🛑 Containment (Confinement)  
+## 🧩 How to Use
+1. Identify the type of incident.  
+2. Open the corresponding battle card.  
+3. Follow the structured response workflow:  
+   - 🚨 Detection & Analysis  
+   - 🛑 Containment  
    - 🧹 Eradication & Recovery  
-   - 📋 Communication & Escalade  
+   - 📋 Communication & Escalation  
    - 🔄 Post-Incident  
-4. Adapter aux procédures et contacts internes.  
+4. Adapt to your internal playbooks, tools, and escalation contacts.  
 
 ---
 
-## 📚 Références
+## 📚 References
 - NIST SP 800-61r2 – *Computer Security Incident Handling Guide*  
-- ANSSI – *Gestion des incidents de sécurité*  
-- CNIL – *Notification des violations de données*  
+- Internal IR Playbooks and SOC Procedures  
 
 ---
