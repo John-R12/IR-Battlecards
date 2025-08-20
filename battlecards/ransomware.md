@@ -1,50 +1,49 @@
-# 🛡️ Battle Card – Réponse à Incident : Ransomware
+# 🛡️ Battle Card – Incident Response: Ransomware
 
-## 🎯 Objectif
-Limiter la propagation, éradiquer le ransomware et restaurer l’activité en minimisant l’impact.
-
----
-
-## 🚨 1. Détection & Analyse
-
-| Signes d’alerte | Premières actions |
-|-----------------|-------------------|
-| - Messages de rançon<br>- Fichiers chiffrés (.locked, .encrypted, etc.)<br>- Activité réseau anormale (pics SMB/RDP)<br>- Alertes EDR / antivirus | - [ ] Noter la date/heure de détection<br>- [ ] Identifier les systèmes impactés<br>- [ ] Sauvegarder les preuves (logs, copies mémoire, échantillons)<br>- [ ] Classer la sévérité (souvent **critique**) |
+## 🎯 Objective
+Limit the spread, eradicate the ransomware, and restore business operations while minimizing impact.
 
 ---
 
-## 🛑 2. Containment (Confinement)
-- [ ] Isoler immédiatement la machine compromise (sans l’éteindre)  
-- [ ] Désactiver les comptes compromis  
-- [ ] Segmenter/déconnecter les parties critiques du réseau  
-- [ ] Bloquer IOC connus (IPs, hash, domaines) sur firewall/EDR  
+## 🚨 1. Detection & Analysis
+
+| Indicators | First Actions |
+|------------|---------------|
+| - Ransom note displayed<br>- Encrypted files (.locked, .encrypted, etc.)<br>- Unusual network activity (SMB/RDP spikes)<br>- Alerts from EDR/antivirus | - [ ] Record detection time<br>- [ ] Identify affected systems<br>- [ ] Preserve evidence (logs, memory dumps, samples)<br>- [ ] Assess severity (usually **critical**) |
+
+---
+
+## 🛑 2. Containment
+- [ ] Isolate infected hosts (do not power off)  
+- [ ] Disable compromised accounts  
+- [ ] Disconnect or segment critical network segments  
+- [ ] Block known IOCs (IPs, hashes, domains) on firewalls/EDR  
 
 ---
 
 ## 🧹 3. Eradication & Recovery
-- [ ] Identifier la souche du ransomware  
-- [ ] Supprimer le binaire et les mécanismes de persistance  
-- [ ] Scanner tout l’environnement  
-- [ ] Restaurer depuis des sauvegardes **non infectées**  
-- [ ] Appliquer correctifs et changer les identifiants compromis  
+- [ ] Identify ransomware family (via hash, ransom note)  
+- [ ] Remove binaries and persistence mechanisms  
+- [ ] Scan the environment for additional infections  
+- [ ] Restore systems from **clean backups**  
+- [ ] Apply patches and reset compromised credentials  
 
 ---
 
-## 📋 4. Communication & Escalade
-- Prévenir : SOC / CERT interne, CISO, DSI, Juridique, Autorités (ANSSI, Police)  
-- ⚠️ **Ne jamais communiquer avec les attaquants sans validation direction/juridique.**
+## 📋 4. Communication & Escalation
+- Notify: SOC, Incident Response team, CISO, IT management, Legal/Compliance  
+- ⚠️ **Do not engage with attackers unless approved by management and legal.**
 
 ---
 
 ## 🔄 5. Post-Incident
-- [ ] Rédiger un rapport complet  
-- [ ] Débrief (REX) avec parties prenantes  
-- [ ] Mettre à jour procédures et sauvegardes  
-- [ ] Sensibiliser les utilisateurs  
+- [ ] Draft full incident report and timeline  
+- [ ] Conduct lessons learned meeting  
+- [ ] Update procedures and backup strategy  
+- [ ] Conduct user awareness training  
 
 ---
 
-## 📚 Références utiles
-- NIST SP 800-61r2  
-- ANSSI – Guide ransomware  
-- Playbook interne SOC n°RANS-01  
+## 📚 References
+- NIST SP 800-61r2 – *Computer Security Incident Handling Guide*  
+- Internal IR Playbooks  
