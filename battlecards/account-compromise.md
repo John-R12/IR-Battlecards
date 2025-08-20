@@ -1,48 +1,45 @@
-# 🛡️ Battle Card – Réponse à Incident : Compte Compromis
+# 🛡️ Battle Card – Incident Response: Account Compromise
 
-## 🎯 Objectif
-Empêcher l’attaquant d’utiliser un compte compromis pour accéder au SI.
-
----
-
-## 🚨 1. Détection & Analyse
-
-| Signes d’alerte | Premières actions |
-|-----------------|-------------------|
-| - Connexions suspectes (géolocalisation anormale, impossible travel)<br>- Alertes SIEM (Azure AD, O365, AD local)<br>- Chiffre d’échec authentification élevé | - [ ] Identifier le compte compromis<br>- [ ] Noter date/heure et périmètre<br>- [ ] Vérifier si actions malveillantes (envoi mails, accès fichiers) |
+## 🎯 Objective
+Prevent attackers from leveraging compromised credentials to access sensitive systems.
 
 ---
 
-## 🛑 2. Containment (Confinement)
-- [ ] Suspendre immédiatement le compte compromis  
-- [ ] Réinitialiser mot de passe fort + MFA  
-- [ ] Invalider sessions actives  
+## 🚨 1. Detection & Analysis
+
+| Indicators | First Actions |
+|------------|---------------|
+| - Suspicious logins (impossible travel, abnormal geolocation)<br>- High failed login rates<br>- SIEM/EDR alerts | - [ ] Identify the compromised account<br>- [ ] Record time and scope of compromise<br>- [ ] Investigate malicious activity performed with the account |
+
+---
+
+## 🛑 2. Containment
+- [ ] Suspend compromised account  
+- [ ] Reset password and enforce MFA  
+- [ ] Invalidate active sessions  
 
 ---
 
 ## 🧹 3. Eradication & Recovery
-- [ ] Supprimer règles de redirection dans messagerie  
-- [ ] Vérifier absence de délégations suspectes  
-- [ ] Analyser activités passées du compte  
-- [ ] Réactiver uniquement une fois sain et renforcé  
+- [ ] Remove malicious mailbox rules or delegations  
+- [ ] Review recent account activity  
+- [ ] Reinstate account only after secure validation  
 
 ---
 
-## 📋 4. Communication & Escalade
-- [ ] Prévenir SOC, CISO, DSI  
-- [ ] Alerter utilisateur concerné  
-- [ ] Communication interne si campagne large  
+## 📋 4. Communication & Escalation
+- Notify SOC, IR team, CISO, and IT management  
+- Inform affected user(s)  
 
 ---
 
 ## 🔄 5. Post-Incident
-- [ ] Ajouter IOC liés au compte dans SIEM  
-- [ ] Renforcer règles MFA et alerting  
-- [ ] Sensibiliser utilisateur impacté  
+- [ ] Add IOCs to SIEM and monitoring rules  
+- [ ] Strengthen authentication policies (MFA, conditional access)  
+- [ ] Provide security awareness for the affected user(s)  
 
 ---
 
-## 📚 Références utiles
-- NIST SP 800-61r2  
-- Microsoft – Guide réponse compromission O365  
-- ANSSI – Authentification forte  
+## 📚 References
+- NIST SP 800-61r2 – *Computer Security Incident Handling Guide*  
+- Internal IR Playbooks  
