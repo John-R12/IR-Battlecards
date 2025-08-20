@@ -7,43 +7,9 @@ and designed for operational use by SOC and IR teams.
 
 ---
 
-## 📂 Repository Structure
-
-incident-response-battlecards/
-│
-├── README.md # Project overview
-├── battlecards/ # Incident-specific response cards
-│ ├── ransomware.md
-│ ├── phishing.md
-│ ├── data-breach.md
-│ ├── account-compromise.md
-│ └── INDEX.md
-│
-├── templates/ # Generic templates for new battle cards
-│ └── battlecard_template.md
-│
-└── docs/ # Contribution guidelines, extra docs
-└── CONTRIBUTING.md
-
-yaml
-Copier
-Modifier
-
----
-
-## 🔥 Available Battle Cards
-- [🛡️ Ransomware](./battlecards/ransomware.md)  
-- [🎣 Phishing](./battlecards/phishing.md)  
-- [📂 Data Breach](./battlecards/data-breach.md)  
-- [🔑 Account Compromise](./battlecards/account-compromise.md)  
-
-👉 See the [INDEX](./battlecards/INDEX.md) for quick navigation.
-
----
-
 ## 🧩 How to Use
 1. Identify the type of incident you are facing.  
-2. Open the corresponding **battle card**.  
+2. Open the corresponding **battle card** in the `battlecards/` directory.  
 3. Follow the checklist through the 5 phases of incident response:
    - 🚨 Detection & Analysis  
    - 🛑 Containment  
