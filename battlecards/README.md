@@ -1,11 +1,11 @@
-# 📑 Incident Response Battle Cards
+# 📑 Incident Response Battle Cards – Index
 
-This directory contains **Incident Response Battle Cards** aligned with the NIST SP 800-61r2 framework.  
-Each card is a **concise checklist** designed to support Security Operations and Incident Response teams.
+This index lists all available **Incident Response Battle Cards**.  
+Each card provides a concise, checklist-style response guide aligned with **NIST SP 800-61r2** phases.
 
 ---
 
-## 🔥 Available Battle Cards
+## 🔒 Current Battle Cards
 
 - [Ransomware](./ransomware.md)  
 - [Phishing](./phishing.md)  
@@ -14,6 +14,10 @@ Each card is a **concise checklist** designed to support Security Operations and
 - [Insider Threat](./insider-threat.md)  
 - [Denial of Service (DoS/DDoS)](./ddos.md)  
 - [Lost or Stolen Device](./lost-or-stolen-device.md)  
+- [Credential Dumping / Password Spraying](./credential-dumping-password-spraying.md)  
+- [Cloud Misconfiguration](./cloud-misconfiguration.md)  
+- [Web Application Attack](./web-application-attack.md)  
+- [Malware Infection (Non-Ransomware)](./malware-infection.md)  
 
 ---
 
