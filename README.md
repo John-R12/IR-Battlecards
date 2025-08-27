@@ -9,7 +9,7 @@ and designed for operational use by SOC and IR teams.
 
 ## 🗺️ Repository Map
 
-![Incident Response Battle Cards Map](./docs/incident_response_battle_cards_diagram.png)
+![Incident Response Battle Cards Map](./docs/incident_response_battle_cards_diagram.svg)
 
 ---
 
