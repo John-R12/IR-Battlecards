@@ -7,6 +7,12 @@ and designed for operational use by SOC and IR teams.
 
 ---
 
+## 🗺️ Repository Map
+
+![Incident Response Battle Cards Map](./docs/incident_response_battle_cards_diagram.png)
+
+---
+
 ## 🧩 How to Use
 1. Identify the type of incident you are facing.  
 2. Open the corresponding **battle card** in the `battlecards/` directory.  
@@ -22,7 +28,8 @@ and designed for operational use by SOC and IR teams.
 
 ## 📚 References
 - NIST SP 800-61r2 – *Computer Security Incident Handling Guide*  
-- Internal Incident Response Playbooks  
+- MITRE ATT&CK Framework – <https://attack.mitre.org>  
+- OWASP Top 10 – <https://owasp.org/www-project-top-ten/>
 
 ---
 
@@ -34,4 +41,5 @@ Contributions are welcome!
 ---
 
 ## ⚠️ Disclaimer
-These battle cards are **generic guidelines** and should always be adapted to your organization’s tools, infrastructure, and legal/regulatory requirements.
+These battle cards are **generic guidelines** and should always be adapted  
+to your organization’s tools, infrastructure, and legal/regulatory requirements.
