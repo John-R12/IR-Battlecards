@@ -7,12 +7,6 @@ and designed for operational use by SOC and IR teams.
 
 ---
 
-## 🗺️ Repository Map
-
-![Incident Response Battle Cards Map](./docs/incident_response_battle_cards_diagram.svg)
-
----
-
 ## 🧩 How to Use
 1. Identify the type of incident you are facing.  
 2. Open the corresponding **battle card** in the `battlecards/` directory.  
