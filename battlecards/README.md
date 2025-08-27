@@ -26,6 +26,7 @@ Each card provides a concise, checklist-style response guide aligned with **NIST
 - [Phishing](./social/phishing.md)  
 - [Insider Threat](./social/insider-threat.md)  
 - [Account Compromise](./social/account-compromise.md)  
+- [Business Email Compromise (BEC)](./social/business-email-compromise.md)
 
 ---
 
@@ -37,6 +38,21 @@ Each card provides a concise, checklist-style response guide aligned with **NIST
 
 ## 🌍 Web Applications
 - [Web Application Attack](./web/web-application-attack.md)
+
+---
+
+## 🛠️ Supply Chain
+- [Supply Chain Attack](./supply-chain/supply-chain-attack.md)
+
+---
+
+## 🔑 Privilege
+- [Privilege Escalation](./privilege/privilege-escalation.md)
+
+---
+
+## 🏢 Physical Access
+- [Unauthorized Physical Access](./physical/unauthorized-physical-access.md)
 
 ---
 
