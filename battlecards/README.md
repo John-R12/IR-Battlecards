@@ -35,11 +35,15 @@ Each card provides a concise, checklist-style response guide aligned with **NIST
 - [Ransomware](./general/ransomware.md)  
 - [Data Breach](./general/data-breach.md)  
 - [Zero-Day Exploit](./general/zero-day-exploit.md)  
+- [Unauthorized Use of Resources](./general/unauthorized-use-of-resources.md)  
+- [Third-Party Service Outage](./general/third-party-service-outage.md)  
+- [Policy Violation / Misuse](./general/policy-violation.md)  
 
 ---
 
 ## 🌍 Web Applications
-- [Web Application Attack](./web/web-application-attack.md)
+- [Web Application Attack](./web/web-application-attack.md)  
+- [Website Defacement](./web/defacement.md)  
 
 ---
 
