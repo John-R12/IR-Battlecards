@@ -22,24 +22,9 @@ and designed for operational use by SOC and IR teams.
 
 ## 🗂️ Other IR Resources
 
-In addition to battle cards, this repository provides **general-purpose tools** for incident response:
+This repository also includes additional **general-purpose incident response materials**, collected in the `other-ir-resources/` folder.  
+These resources include cheat sheets, generic SOC/IR checklists, and pre-written communication templates, designed to complement the scenario-specific battle cards.
 
-### 📊 Cheat Sheets
-Quick reference guides for fast action:
-- [NIST Incident Response Lifecycle](./other-ir-resources/cheatsheets/nist-incident-response.md)  
-- [Ransomware Quick Actions](./other-ir-resources/cheatsheets/ransomware-quick-actions.md)  
-
-### 📋 Checklists
-Generic procedures for SOC/IR operations:
-- [Host Isolation](./other-ir-resources/checklists/host-isolation.md)  
-- [External Communication](./other-ir-resources/checklists/external-communication.md)  
-- [Incident Closure](./other-ir-resources/checklists/incident-closure.md)  
-
-### 🚨 Communication Templates
-Pre-written messages for internal teams, clients, or partners:
-- [Internal Notification](./other-ir-resources/communication/internal-notification.md)  
-- [Customer Notification](./other-ir-resources/communication/customer-notification.md)  
-- [Partner Escalation](./other-ir-resources/communication/partner-escalation.md)  
 
 ---
 
