@@ -26,13 +26,15 @@ Each card provides a concise, checklist-style response guide aligned with **NIST
 - [Phishing](./social/phishing.md)  
 - [Insider Threat](./social/insider-threat.md)  
 - [Account Compromise](./social/account-compromise.md)  
-- [Business Email Compromise (BEC)](./social/business-email-compromise.md)
+- [Business Email Compromise (BEC)](./social/business-email-compromise.md)  
+- [Insider Data Exfiltration](./social/insider-data-exfiltration.md)  
 
 ---
 
 ## 📦 General / Cross-cutting
 - [Ransomware](./general/ransomware.md)  
 - [Data Breach](./general/data-breach.md)  
+- [Zero-Day Exploit](./general/zero-day-exploit.md)  
 
 ---
 
@@ -53,6 +55,12 @@ Each card provides a concise, checklist-style response guide aligned with **NIST
 
 ## 🏢 Physical Access
 - [Unauthorized Physical Access](./physical/unauthorized-physical-access.md)
+
+---
+
+## 🕵️ Advanced Threats
+- [Advanced Persistent Threat (APT)](./apt/advanced-persistent-threat.md)  
+- [Critical Infrastructure Attack (ICS/SCADA)](./ics/critical-infrastructure-attack.md)
 
 ---
 
